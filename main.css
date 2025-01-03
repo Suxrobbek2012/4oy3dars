@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    padding-top: 25px;
+    background-color: #ffffff;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hoho:hover{
+    background-color: green;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header__link{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 2    8px;
+    color: #000000;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: green;
+}
+
+.hoho{
+    width: 256px;
+    height: 36px;
+    background-color: red;
+}    
+.fol{
+    display: flex;
+    gap: 300px;
+    padding-top: 100px;
+}
+.foll{
+    display: flex;
+    gap: 300px;
+    padding-top: 200px;  
+}
+.folll{
+    display: flex;
+    gap: 300px;
+    padding-top: 200px;
+}
+.data{
+    width: 235px;
+    height: 391px;
+    box-shadow: 0 5px 0 rgb(168, 168, 168);
+    background-color: rgb(255, 255, 255);
+    }
+    .sol{
+        color: red;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+.jojo{
+width: 1800px;
+padding-top: 50px;
+padding-right: 50px;
+height: 500px;
+}
+@media(max-width:1000px ){
+    .jojo{
+        width: 1000px;
+    }
+}
+@media(max-width:600px){
+    .jojo{
+        width: 900px;
+    }
+}
+@media(max-width:300px ){
+    .jojo{
+        width: 700px;
+    }
+}
+@media(max-width:1400px){
+    .fol{
+        flex-wrap: wrap;
+    }
+    .foll{
+        flex-wrap: wrap;
+    }
+    .folll{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:900px){
+    .fol{
+        flex-wrap: wrap;
+    }
+    .foll{
+        flex-wrap: wrap;
+    }
+    .folll{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:700px){
+    .fol{
+        flex-wrap: wrap;
+    }
+    .foll{
+        flex-wrap: wrap;
+    }
+    .folll{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:400px){
+    .fol{
+        flex-wrap: wrap;
+    }
+    .foll{
+        flex-wrap: wrap;
+    }
+    .folll{
+        flex-wrap: wrap;
+    }
+}
+
+
+.aira{
+    font-size: 30px;
+}
+.jojojo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
